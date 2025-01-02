@@ -1,0 +1,83 @@
+.homeFrame{
+    margin: 0;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .heroInfo{
+    display: grid;
+    margin: 0 10% ;
+    height: 100%;
+    padding: 10% 0;
+    gap: 10px;
+  
+   
+  }
+  
+  .title{
+    max-width: 60%;
+    font-size: 1.2;
+    font-weight: bold; /* Negrita */
+    line-height: 1.2;
+    letter-spacing: 4px;
+    text-align: left; /* Alineación a la izquierda */
+    margin: 0; /* Eliminamos márgenes predeterminados */
+  
+  }
+  
+  .subtitle{
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  }
+  
+  .description{
+    font-size: 1.2rem;
+    letter-spacing: 1.8px;
+  
+  padding: 0 10%;
+  }
+  
+  .buttonDiv{
+    margin-top: 10px;
+  display: flex;
+  }
+  
+  .button{
+    border-radius: 50px;
+    padding: 10px ;
+    width: 100%;
+    background: #118AB2;
+    font-size: 1.5rem;
+    border: none;
+    
+  }
+  
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    max-height: 70%; /* Escala la imagen al 80% del contenedor */
+    
+  
+    border-radius: 25% 0  0 25%  ;
+    overflow: hidden;
+  }
+  
+  .imageDiv{
+  
+    width: 45%;
+    height: 100%;
+    margin-top: 10%;  
+  }
+  
+  
+  
+  
+  

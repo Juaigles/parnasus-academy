@@ -1,0 +1,43 @@
+{
+    "HomePage": {
+      "title": "HABLA ESPAÑOL COMO UN NATIVO",
+      "about": "Sobre la pagina",
+      "subtitle":"Domina el español y utilizalo desde el primer día.",
+      "description": "Metodología innovadora de aprendizaje de español para extranjeros con garantía.",
+      "ctaHero": "¡Quiero saber más!"
+    },
+    "Navbar": {
+        "link1" : "Sobre Mí",
+        "link2" : "Mis clases",
+        "link3" : "Contacto",
+        "link4" : "Blog "
+    },
+    "Features": {
+        "item1" : "+500 Lecciones y soporte directo",
+        "item2" : "Conversaciones en grupo y actividades conjuntas",
+        "item3" : "Juegos de aprendizaje y metodólogia inovadora",
+        "item4" : "Clases 100% adaptadas a tu nivel y necesidades"
+    },
+    "About" : {
+        "title": "CONOCE A TU INSTRUCTORA",
+        "description" :"Bárbara Alejandra Gutiérrez Pérez, es una profersora de Español graduada en la Universiad de Salamanca en filólogia Hispánica. Además, cuenta con el Máster de Español para Extranjeros. Una formación muy competente y actualizada a los nuevos tiempos. ",
+        "achivement1" : "Alumnos capacitados",
+        "achivement2" : "Horas de clase",
+        "achivement3" : "Reseñas de alumnos",
+        "achivement4" : "Años de experiencia"
+        },
+    "Contact" : {
+        "title" : "MANTENTE CONECTAD@",
+        "description" :"Recibe emails con descuentos y anuncios.",
+        "placeholder_name" : "Nombre",
+        "button": "Enviar"
+    },
+    "Info" : {
+        "title": "Te ofrecemos la ruta de aprendizaje más personalizada ",
+        "description1" :"✔Clases adaptadas a tus necesidades siguiendo la grámatica cognitiva. Técnica que implementa la representación visual de la grámatica.",
+        "description2" : "✔Enfoque en aprendizaje de vocabualrio y colocaciones frequientes del español, clasificados por tématicas acordes a tus intereses.",
+        "description3" : "✔Clases de conversación práctica y feedback posterior. Refuerzo en las correcciones de errores.",
+        "button" : "¡Quiero saber más!"
+   
+    }
+  }

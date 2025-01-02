@@ -1,0 +1,59 @@
+.main{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+gap: 20px;
+    padding: 5% 0  0   0;
+
+    
+
+
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+
+
+
+} 
+
+.text{
+    gap: 10px;
+display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 40%;
+} 
+
+.desc{
+    text-align: justify;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: gray;
+height: 90%;
+width: 40%;
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+
+    
+}
+
+.pin{
+    text-align: center;
+}

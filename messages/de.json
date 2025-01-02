@@ -1,0 +1,42 @@
+{
+    "HomePage": {
+        "title": "SPRICH SPANISCH WIE EIN MUTTERSPRACHLER",
+        "about": "Über die Seite",
+        "subtitle": "Beherrsche Spanisch und benutze es ab dem ersten Tag.",
+        "description": "Innovative Methodik zum Erlernen von Spanisch für Ausländer mit Garantie.",
+        "ctaHero": "Ich möchte mehr wissen!"
+    },
+    "Navbar": {
+        "link1": "Über mich",
+        "link2": "Meine Kurse",
+        "link3": "Kontakt",
+        "link4": "Blog"
+    },
+    "Features": {
+        "item1": "+500 Lektionen und direkter Support",
+        "item2": "Gruppengespräche und gemeinsame Aktivitäten",
+        "item3": "Lernspiele und innovative Methodik",
+        "item4": "100% auf dein Niveau und deine Bedürfnisse zugeschnittene Kurse"
+    },
+    "About": {
+        "title": "LERNEN SIE IHREN LEHRER KENNEN",
+        "description": "Bárbara Alejandra Gutiérrez Pérez ist eine Spanischlehrerin, die an der Universität Salamanca in Hispanistik graduiert hat. Darüber hinaus besitzt sie einen Masterabschluss in Spanisch für Ausländer. Eine äußerst kompetente und zeitgemäße Ausbildung für die heutige Zeit.",
+        "achivement1": "Ausgebildete Schüler",
+        "achivement2": "Unterrichtsstunden",
+        "achivement3": "Bewertungen der Schüler",
+        "achivement4": "Jahre Erfahrung"
+    },
+    "Contact": {
+        "title": "BLEIB VERBUNDEN",
+        "description": "Erhalten Sie E-Mails mit Rabatten und Ankündigungen.",
+        "placeholder_name": "Name",
+        "button": "Senden"
+    },
+    "Info": {
+        "title": "Wir bieten Ihnen den individuellsten Lernweg",
+        "description1": "✔ Auf Ihre Bedürfnisse zugeschnittene Kurse, die kognitive Grammatik verwenden. Diese Technik implementiert die visuelle Darstellung der Grammatik.",
+        "description2": "✔ Fokus auf das Erlernen von Vokabeln und häufigen spanischen Kollokationen, die nach Themen entsprechend Ihren Interessen klassifiziert sind.",
+        "description3": "✔ Praktische Gesprächskurse und anschließendes Feedback. Verstärkung bei der Fehlerkorrektur.",
+        "button": "Ich möchte mehr wissen!"
+    }
+}

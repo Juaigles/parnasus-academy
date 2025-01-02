@@ -1,0 +1,54 @@
+.info {
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    padding: 0; /* Elimina padding innecesario */
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5% 10%;
+    gap: 20%;
+}
+
+.images {
+    display: grid;
+    grid-template-rows: 1fr 1fr; /* Divide en dos filas iguales */
+    width: 50%; /* Ocupa el 50% del ancho de la pantalla */
+    height: 100%; /* Ocupa el 100% de la altura del contenedor */
+    
+
+
+}
+
+.img1,
+.img2 {
+    background-color: grey;
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    height: 100%; /* Ocupa el 100% del contenedor padre (una fila del grid) */
+}
+.img2{
+    padding: 5%;
+}
+
+
+
+
+
+
+.text {
+    width: 50%; /* Ocupa el otro 50% del ancho de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Centrado vertical del contenido */
+}
+
+.description {
+    display: grid;
+    gap: 20px;
+}
+
+
+.button{
+    height: 8vh;
+    border-radius: 50px;
+    border: none;
+    
+}

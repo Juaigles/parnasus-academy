@@ -1,0 +1,42 @@
+{
+    "HomePage": {
+        "title": "SPEAK SPANISH LIKE A NATIVE",
+        "about": "About the page",
+        "subtitle": "Master Spanish and use it from the very first day.",
+        "description": "Innovative methodology for learning Spanish for foreigners with guaranteed results.",
+        "ctaHero": "I want to know more!"
+    },
+    "Navbar": {
+        "link1": "About Me",
+        "link2": "My Classes",
+        "link3": "Contact",
+        "link4": "Blog"
+    },
+    "Features": {
+        "item1": "+500 Lessons and direct support",
+        "item2": "Group conversations and joint activities",
+        "item3": "Learning games and innovative methodology",
+        "item4": "Classes 100% tailored to your level and needs"
+    },
+    "About": {
+        "title": "MEET YOUR INSTRUCTOR",
+        "description": "Bárbara Alejandra Gutiérrez Pérez is a Spanish teacher graduated from the University of Salamanca in Hispanic Philology. Additionally, she holds a Master's degree in Spanish for Foreigners. A highly competent and modern training for the current times.",
+        "achivement1": "Trained students",
+        "achivement2": "Class hours",
+        "achivement3": "Student reviews",
+        "achivement4": "Years of experience"
+    },
+    "Contact": {
+        "title": "STAY CONNECTED",
+        "description": "Receive emails with discounts and announcements.",
+        "placeholder_name": "Name",
+        "button": "Send"
+    },
+    "Info": {
+        "title": "We offer you the most personalized learning path",
+        "description1": "✔ Classes tailored to your needs following cognitive grammar, a technique that implements the visual representation of grammar.",
+        "description2": "✔ Focus on learning vocabulary and frequent Spanish collocations, classified by themes aligned with your interests.",
+        "description3": "✔ Practical conversation classes and subsequent feedback. Reinforcement in error corrections.",
+        "button": "I want to know more!"
+    }
+}
