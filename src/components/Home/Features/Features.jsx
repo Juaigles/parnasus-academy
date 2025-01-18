@@ -5,26 +5,29 @@ import Image from 'next/image';
 
 const Features = () => {
     const t = useTranslations('Features');
-      // Las claves de los ítems en "Features"
-      const featureKeys = ['item1', 'item2', 'item3', 'item4'];
+    // Las claves de los ítems en "Features"
+    const featureKeys = ['item1', 'item2', 'item3', 'item4'];
 
-      return (
-          <div className={styles.features}>
-              {featureKeys.map((key, index) => (
-                  <div key={index} className={styles.item}>
+    return (
+        <div className={styles.features}>
+            {featureKeys.map((key, index) => (
+                <div key={index} className={styles.item}>
                     <div className={styles.icon}>
-                        <Image className={styles.image} src={"/homeImg.jpg"} width={1300} height={1300} layout="responsive"alt='icon'/>
+                        <Image className={styles.image} src={"/homeImg.jpg"} width={1300} height={1300} layout="responsive" alt='icon' />
                     </div>
                     <div className={styles.text}>
-                    {t(key)}
+                        <p>
+
+                        {t(key)}
+                        </p>
 
                     </div>
-                    </div> 
-              ))}
-          </div>
-      );
-    
-  
+                </div>
+            ))}
+        </div>
+    );
+
+
 }
 
 export default Features

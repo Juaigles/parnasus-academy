@@ -26,6 +26,7 @@ font-size: 1.5rem;
     gap: 10px;
     height: 10vh;
     width: 50vw;
+    
 
 
 }
@@ -34,6 +35,9 @@ font-size: 1.5rem;
 height: 100%;
 width: 100%;
 padding: 0 5%;
+border: none;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Añadir sombra más intensa */
+
 }
 
 

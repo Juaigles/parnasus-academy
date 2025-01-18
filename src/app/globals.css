@@ -1,7 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary-color: #E63946;
+  --primary-color: #ea636f;
   --secondary-color: #118AB2;
 
 }
@@ -21,7 +21,13 @@ body {
   overflow-x: hidden;
 }
 
+h3, p {
+  font-size: 1.4rem;
+
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
   color: var(--background);
   background: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;

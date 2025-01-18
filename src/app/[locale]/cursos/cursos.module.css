@@ -1,0 +1,21 @@
+.cursos{
+    display: flex;
+    flex-direction: column;
+    
+
+    height: 100vh;
+}
+
+.title{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.products{
+    display: grid;
+    gap: 5%;
+    padding: 50px;
+}

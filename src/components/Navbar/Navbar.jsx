@@ -11,6 +11,14 @@ import styles from "./navbar.module.css"
 
 function Navbar() {
     const t = useTranslations('Navbar');
+  const [lang, setLang] = useState(null)
+
+  useEffect(()=>{
+    const storedLang = localStorage.getItem('locale')
+    setLang(storedLang || 'es');
+  },[])
+  
+    
   const [navbar, setNavbar] = useState(false);
   const [selectedLink, setSelectedLink] = useState(undefined);
 
@@ -38,17 +46,17 @@ function Navbar() {
 
 
   const links = [
-    { link: '/vtc-salamanca', name: t('link1') },
-    { link: '/taxi-salamanca', name: t('link2') },
-    { link: '/transfer-salamanca', name:  t('link3')},
-    { link: '/alquiler-con-conductor', name:  t('link4')},
+    { link: '/about', name: t('link1') },
+    { link: '/cursos', name: t('link2') },
+    { link: '/contact', name:  t('link3')},
+    { link: '/blog', name:  t('link4')},
   
   ];
 
   return (
     <div className={styles.navcontainer}>
       <div className=''>
-        <Link href="/" onClick={() => setSelectedLink('logo')} className={styles.logo}>
+        <Link href={"/"} onClick={() => setSelectedLink('logo')} className={styles.logo}>
           Parnasus Spanish Academy
         </Link>
       
@@ -59,8 +67,8 @@ function Navbar() {
           {links.map((link, index) => (
             <Link
               key={index}
-              href={link.link}
-              onClick={() => handleClick(index)}
+              href={`/${lang}${link.link}`}
+              onClick={() => handleClick(link)}
               className={styles.link}
             >
               {link.name}

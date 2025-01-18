@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     padding: 0 5%;
+    
 }
 
 .item{
@@ -14,6 +15,7 @@ display: grid;
 grid-template-rows: 2fr 1fr;
 justify-content: center;
 align-items: center;
+
 }
 .icon{
 height: 180px;
@@ -24,6 +26,8 @@ align-items: center;
 }
 
 .image{
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Añadir sombra más intensa */
+
 }
 
 .text{

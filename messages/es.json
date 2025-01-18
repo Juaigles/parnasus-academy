@@ -2,7 +2,8 @@
     "HomePage": {
       "title": "HABLA ESPAÑOL COMO UN NATIVO",
       "about": "Sobre la pagina",
-      "subtitle":"Domina el español y utilizalo desde el primer día.",
+      "subtitle":"Domina el español y utilizalo ",
+      "subtitleHighlighted" : "desde el primer día.",
       "description": "Metodología innovadora de aprendizaje de español para extranjeros con garantía.",
       "ctaHero": "¡Quiero saber más!"
     },

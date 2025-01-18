@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   const t = useTranslations('HomePage');
+  
   return (
     <div className={styles.homeFrame}>
       <div className={styles.heroInfo}>
@@ -12,8 +13,9 @@ export default function Hero() {
 
         </div>
         <div className={styles.subtitle}>
-          <h2>{t('subtitle')}</h2>
+          <h2>{t('subtitle')}<span className={styles.subtitleHighlited}> <h2>{t('subtitleHighlighted')}</h2></span></h2>
         </div>
+        
         <div className={styles.description}>
           <p>{t('description')}</p>
         </div>

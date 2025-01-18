@@ -2,7 +2,7 @@
 
 .navcontainer{
 border: 1px solid red;
-background: #E63946;
+background: var(--primary-color);
 display: flex;
 justify-content: center;
 gap: 20%;
